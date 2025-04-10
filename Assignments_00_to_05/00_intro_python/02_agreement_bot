@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNvuo7ytvah7lbo57bAoPjL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Aligadit1/Q3-Project4-assignments/blob/main/Assignments_00_to_05/00_intro_python/02_agreement_bot\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KLYCppOKsNYu",
+        "outputId": "0c661b68-09e3-4ac9-9202-54115b4e5a02"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "What is your favorite animal? cow\n",
+            "My favourite animal is also cow!\n"
+          ]
+        }
+      ],
+      "source": [
+        "# This is an agreement bot\n",
+        "def agreement_bot():\n",
+        "  User_fav_animal = input(\"What is your favorite animal? \")\n",
+        "  print(f\"My favourite animal is also {User_fav_animal}!\" )\n",
+        "if __name__ == \"__main__\":\n",
+        "  agreement_bot()\n",
+        "\n"
+      ]
+    }
+  ]
+}
